@@ -8649,4 +8649,7 @@
         Home
     ---------------------------------------- */
 
-        
+@media only screen and (min-width: 1200px) {
+    .custom-nav-margin { margin-left: 60px !important; margin-right: auto !important; }
+    .custom-header-margin { margin-left: 60px !important; }
+}
