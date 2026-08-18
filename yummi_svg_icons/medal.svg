@@ -1,0 +1,9 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.14 111.98">
+  <defs>
+    <style>.cls-2{fill:none!important;stroke:#000000!important;stroke-linecap:round!important;stroke-linejoin:round!important;stroke-width:4px!important;}</style>
+  </defs>
+  <title>medal</title>
+  <circle class="cls-2" cx="56" cy="42" r="22" />
+  <path class="cls-2" d="M56,28 L59.5,36 L68,36.5 L61.5,42.5 L63,51 L56,47 L49,51 L50.5,42.5 L44,36.5 L52.5,36 Z" />
+  <path class="cls-2" d="M43,60 v25 l13,-7 l13,7 v-25" />
+</svg>
