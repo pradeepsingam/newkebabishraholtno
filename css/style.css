@@ -5845,8 +5845,8 @@
         }
 
         .mad-icon-boxes.style-4 .mad-icon-box .mad-icon-box-icon .svg .cls-2 {
-            stroke: #ebe117;
-            fill: transparent;
+            stroke: #ffffff !important;
+            fill: transparent !important;
         }
 
         .mad-icon-boxes.style-4 .mad-icon-box .mad-icon-box-title {
