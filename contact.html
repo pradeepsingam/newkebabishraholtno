@@ -93,10 +93,28 @@
               </li>
               <li class="current-menu-item"><a href="contact.html">Kontakt</a>
               </li>
+              <li class="menu-item d-block d-lg-none" style="padding: 15px 20px 0;">
+                <div class="mad-our-info type-2">
+                  <div class="mad-info">
+                    <i class="material-icons-outlined">call</i>
+                    <div class="mad-info-content">
+                      <span>Ring oss for bestilling</span>
+                      <div class="mad-info-title"><a href="tel:63955030" style="padding: 0; font-family: inherit; font-size: inherit; color: inherit;">63 95 50 30</a></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item d-block d-lg-none" style="padding: 15px 20px 20px;">
+                <div class="mad-actions">
+                  <div class="mad-item" style="width: 100%;">
+                    <a href="#" class="btn btn-small" style="width: 100%; justify-content: center;"><span>SE MENY OG BESTILL</span></a>
+                  </div>
+                </div>
+              </li>
             </ul>
           </nav>
           <!--================ End of Navigation ================-->
-          <div class="mad-header-item">
+          <div class="mad-header-item d-none d-lg-block mobile-hidden">
             <div class="mad-our-info type-2">
               <div class="mad-info">
                 <i class="material-icons-outlined">call</i>
@@ -107,7 +125,7 @@
               </div>
             </div>
           </div>
-          <div class="mad-header-item custom-header-margin">
+          <div class="mad-header-item custom-header-margin d-none d-lg-block mobile-hidden">
             <div class="mad-actions">
               <div class="mad-item">
                 <a href="#" class="btn btn-small"><span>SE MENY OG BESTILL</span></a>
@@ -210,17 +228,18 @@
           <div class="row align-items-end vr-size-1">
             <div class="col-sm-6">
               <div class="content-element-5">
-                <a href="index.html" class="mad-logo"><img src="images/logo.png" alt="" width="197"></a>
+                <a href="#" class="mad-logo"><img src="images/logo.png" alt="" width="197"></a>
               </div>
             </div>
             <div class="col-sm-6" style="text-align: right;">
               <div class="mad-social-icons size-big content-element-5">
                 <ul>
-                  <li><a href="https://facebook.com/newkebabishraholt" target="_blank" rel="noopener"><i
-                        class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://facebook.com/newkebabishraholt" target="_blank" rel="noopener"><i class="fab fa-facebook" style="font-size: 40px; color: #1877F2; background-color: white; border-radius: 50%;"></i></a></li>
                 </ul>
               </div>
-              <p class="copyrights">Copyright © 2026 NewKebabish. All Rights Reserved.</p>
+              <p class="copyrights">Copyright &copy; 2026 NewKebabish. Powered by <a href="https://eat-now.no/"
+                  target="_blank" rel="noopener" style="color: #ffffff;">Eat-Now</a>.&nbsp;&nbsp;All Rights Reserved.
+              </p>
             </div>
           </div>
         </div>
@@ -228,6 +247,13 @@
       <!--================ End of Footer row ================-->
     </footer>
     <!--================ End of Footer ================-->
+  </div>
+  <!-- Mobile Sticky Order Button -->
+  <div class="mobile-sticky-order-btn d-block d-md-none">
+    <a href="#">
+      <i class="fas fa-utensils"></i>
+      Bestill Nå
+    </a>
   </div>
   <script src="vendors/modernizr.js"></script>
   <script src="vendors/jquery-3.3.1.min.js"></script>
