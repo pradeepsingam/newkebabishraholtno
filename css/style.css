@@ -4044,15 +4044,18 @@
             margin-bottom: 1rem;
         }
 
-        .mad-tabs .mad-menu-box .mad-active .mad-menu-item {
+        .mad-tabs .mad-menu-box .mad-active .mad-menu-item,
+        .mad-tabs .mad-menu-box .mad-menu-item:hover {
             background: #ebe117;
         }
 
-        .mad-tabs .mad-menu-box .mad-active .mad-menu-icon .svg path {
+        .mad-tabs .mad-menu-box .mad-active .mad-menu-icon .svg path,
+        .mad-tabs .mad-menu-box .mad-menu-item:hover .mad-menu-icon .svg path {
             fill: #eb1e27;
         }
 
-        .mad-tabs .mad-menu-box .mad-active .mad-menu-icon .svg .cls-2 {
+        .mad-tabs .mad-menu-box .mad-active .mad-menu-icon .svg .cls-2,
+        .mad-tabs .mad-menu-box .mad-menu-item:hover .mad-menu-icon .svg .cls-2 {
             stroke: #fff;
             fill: transparent!important;
         }
@@ -4071,7 +4074,8 @@
             transition: all .5s ease;
         }
 
-        .mad-tabs .mad-menu-box .mad-active .mad-menu-item:after {
+        .mad-tabs .mad-menu-box .mad-active .mad-menu-item:after,
+        .mad-tabs .mad-menu-box .mad-menu-item:hover:after {
             opacity: 1;
             visibility: visible;
         }
